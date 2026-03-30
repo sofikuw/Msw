@@ -15,7 +15,7 @@
   2. Go to **Settings → Pages → Source → GitHub Actions**
   3. The `.github/workflows/deploy.yml` included here deploys automatically on push to `main`
 
-  Live URL: `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/`
+  Live URL: `https://sofikuw.github.io/Msw/`
 
   ## Install as PWA
 
