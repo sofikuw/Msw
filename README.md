@@ -1,58 +1,37 @@
 # Minimal Stop-Watch
 
-A minimal, distraction-free stopwatch PWA — installable on Android and iOS.
+  A minimal, distraction-free stopwatch PWA — installable on Android and iOS.
 
-## Features
+  ## Quick Start
 
-- Giant time display — tap to configure
-- Work / Break automatic phase switching with haptic feedback
-- Custom themes — any bg + text color, saved to localStorage
-- System / Black built-in themes (follows OS dark/light preference)
-- Installable as a PWA (Android Chrome, iOS Safari)
-- Screen wake lock — keeps display on while running
-- Fullscreen mode
-- Offline support via service worker
+  ```bash
+  npm install
+  npm run dev
+  ```
 
-## Quick Start
+  ## Deploy to GitHub Pages
 
-```bash
-npm install
-npm run dev
-```
+  1. Push this repo to GitHub
+  2. Go to **Settings → Pages → Source → GitHub Actions**
+  3. The `.github/workflows/deploy.yml` included here deploys automatically on push to `main`
 
-Open http://localhost:5173
+  Live URL: `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/`
 
-## Build
+  ## Install as PWA
 
-```bash
-npm run build
-# output → dist/
-```
+  **Android:** Chrome → three-dot menu → Add to Home Screen  
+  **iOS:** Safari → Share → Add to Home Screen
 
-## Deploy to GitHub Pages
+  ## Usage
 
-1. Push this repo to GitHub
-2. Go to **Settings → Pages → Source → GitHub Actions**
-3. The included `.github/workflows/deploy.yml` builds and deploys automatically on every push to `main`
+  | Action | How |
+  |---|---|
+  | Start / Pause | Bottom-right |
+  | Reset | Bottom-left |
+  | Configure intervals | Tap the clock |
+  | Change theme | Top-left |
+  | Fullscreen | Top-right |
 
-Your app will be live at `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/`
-
-## Install as PWA
-
-**Android:** Chrome → three-dot menu → Add to Home Screen
-
-**iOS:** Safari → Share → Add to Home Screen
-
-## Usage
-
-| Action | How |
-|---|---|
-| Start / Pause | Bottom-right button |
-| Reset | Bottom-left button |
-| Configure intervals | Tap the clock face |
-| Change theme | Top-left button |
-| Fullscreen | Top-right button |
-
-## Stack
-
-React 18 · TypeScript · Vite · PWA (Web Manifest + Service Worker)
+  ## Stack
+  React 18 · TypeScript · Vite · Service Worker PWA
+  

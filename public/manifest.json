@@ -1,7 +1,7 @@
 {
   "name": "Minimal Stop-Watch",
   "short_name": "StopWatch",
-  "description": "A minimal, distraction-free stopwatch with work/break intervals and custom themes.",
+  "description": "A minimal stopwatch with work/break intervals and custom themes.",
   "start_url": ".",
   "display": "standalone",
   "orientation": "portrait-primary",
